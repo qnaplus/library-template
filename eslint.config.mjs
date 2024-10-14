@@ -5,6 +5,7 @@ export default tseslint.config(eslint.configs.recommended, ...tseslint.configs.r
     rules: {
         semi: "error",
         curly: "error",
-        quotes: ["error", "double", { allowTemplateLiterals: true }]
+        quotes: ["error", "double", { allowTemplateLiterals: true }],
+        "@typescript-eslint/explicit-function-return-type": "error"
     }
 });
