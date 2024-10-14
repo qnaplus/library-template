@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Template for creating new libraries",
   "main": "dist/index.js",
-  "repository": "git@github.com:qnaplus/library-template.git",
+  "repository": {
+    "url": "git+ssh://git@github.com/qnaplus/library-template.git"
+  },
   "author": "Battlesquid <25509915+Battlesquid@users.noreply.github.com>",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "private": true,
   "scripts": {
     "build": "tsc",
